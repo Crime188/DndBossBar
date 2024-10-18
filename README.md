@@ -5,11 +5,3 @@ to use this, run main.py, a file diolouge will show up, select any file that fol
 The Numbers are a running total of how much damage has been done, this program only reads the bottom number, as this is the current damage taken.
 
 - the number inside the "( )" is the Max Health of the Creature.
-
-### Example File
-This is an example file:
-  # {Name Of Creature} (100)
-  20
-
-  # {Name of Creature} (120)
-  40
