@@ -25,7 +25,7 @@ class FileReader:
         for entry in creatureData:
             if (entry !=""):
                 name = entry.split(" (")[0]
-                maxHp = int(entry.split(" (")[1].split(")")[0])*2
+                maxHp = int(entry.split(" (")[1].split(")")[0])
                 currentHp = maxHp - entryHealthSearch(entry)
                 # Make the Creatures
                 self.Creatures.append(Creature(name,maxHp,currentHp))
