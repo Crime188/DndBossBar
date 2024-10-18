@@ -7,6 +7,7 @@ The Numbers are a running total of how much damage has been done, this program o
 - the number inside the "( )" is the Max Health of the Creature.
 
 ### Example File
+This is an example file:
   # {Name Of Creature} (100)
   20
 
